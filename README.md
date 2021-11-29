@@ -16,13 +16,12 @@ Analysis of the 4115 fundraising campaigns was done using Excel. I used pivot ta
 
 Using a pivot table to sort the data sets and create a line graph, I was able to show that May is the optimal month to launch a fundraising campaign for theater productions. The Line Graph, Theater_Outcomes_vs_Launch.png, shows the number of successful, failed, and canceled campaigns for each month over a calendar year.
 
-/assets/images/Theater_Outcomes_vs_Launch.png
+![This is an image](/Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
 A fundraising goal of $1-$4999 shows to be the most successful when analyzing percentage successful vs percentage failed. I found these percentages using COUNTIFS functions to separate successful campaigns from failed campaigns and further segment them into a small categorical fundraising goal ranges.
-
-/assets/images/Outcomes_vs_Goals.png
+![This is an image](/Resources/Outcomes_vs_Goals.png) 
 
 ### Challenges and Difficulties Encountered
 Using the COUNTIFS function cell by cell can lead to errors in the analysis. Also the formatting of data types can wreak havoc on operations and cell functions. Specifically the YEAR() function column had to be set to “general” formatting, rather than “date” vs the launch_date column had to be set to “date” otherwise it would produce non-sensical data.
